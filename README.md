@@ -16,10 +16,8 @@ I build things for the terminal, and web apps for people who need them.
 Type a title — it finds a source, picks a mirror that works, and plays it in mpv.
 
 [![PyPI](https://img.shields.io/pypi/v/anime-sh?logo=pypi&logoColor=white)](https://pypi.org/project/anime-sh/)
-[![Downloads](https://img.shields.io/pypi/dm/anime-sh?logo=python&logoColor=white&label=installs)](https://pypi.org/project/anime-sh/)
 [![CI](https://github.com/Anime123450/anime-sh/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Anime123450/anime-sh/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Anime123450/anime-sh/blob/master/LICENSE)
-[![Stars](https://img.shields.io/github/stars/Anime123450/anime-sh?style=flat&logo=github)](https://github.com/Anime123450/anime-sh)
 
 <a href="https://github.com/Anime123450/anime-sh">
 <img src="https://raw.githubusercontent.com/Anime123450/anime-sh/master/docs/img/home.png" alt="anime-sh running in a terminal: Continue Watching with progress bars, and a context panel showing cover art, genres and the next episode" width="880">
