@@ -66,8 +66,5 @@ scoop install anime-sh
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-<br>
-
-![](https://github-readme-stats.vercel.app/api?username=Anime123450&show_icons=true&hide_border=true&theme=tokyonight&hide_title=true&card_width=420)
 
 </div>
