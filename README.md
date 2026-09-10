@@ -20,13 +20,16 @@ Type a title — it finds a source, picks a mirror that works, and plays it in m
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Anime123450/anime-sh/blob/master/LICENSE)
 
 <a href="https://github.com/Anime123450/anime-sh">
-<img src="https://raw.githubusercontent.com/Anime123450/anime-sh/master/docs/img/home.png" alt="anime-sh running in a terminal: Continue Watching with progress bars, and a context panel showing cover art, genres and the next episode" width="880">
+<img src="https://raw.githubusercontent.com/Anime123450/anime-sh/master/docs/img/demo.svg" alt="anime-sh in use: the home screen with Continue Watching, typing a search, and a show's episodes in two layouts" width="880">
 </a>
 
 ```powershell
+scoop bucket add extras
 scoop bucket add anime-sh https://github.com/Anime123450/scoop-anime-sh
 scoop install anime-sh
 ```
+
+*or* `choco install anime-sh`
 
 **[→ Read more](https://github.com/Anime123450/anime-sh)**
 
@@ -39,7 +42,8 @@ scoop install anime-sh
 | 🔄 **AniList two-way sync** | finish an episode here, your phone knows |
 | ⏭️ **Skips intros, auto-advances** | mpv driven over JSON IPC |
 | 🎨 **Nine themes** | previewed live as you arrow through them |
-| 📦 **One self-contained binary** | ~21 MB, no Python needed — on Scoop, and WinGet pending |
+| 🧱 **Layouts that fit you** | episodes as a grid, a list or compact; two home densities |
+| 📦 **One self-contained binary** | 21 MB, no Python needed — on Scoop and Chocolatey, WinGet pending |
 
 ---
 
