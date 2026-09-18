@@ -23,13 +23,21 @@ Type a title — it finds a source, picks a mirror that works, and plays it in m
 <img src="https://raw.githubusercontent.com/Anime123450/anime-sh/master/docs/img/demo.svg" alt="anime-sh in use: the home screen with Continue Watching, typing a search, and a show's episodes in two layouts" width="880">
 </a>
 
+🪟 **Windows**
+
 ```powershell
 scoop bucket add extras
 scoop bucket add anime-sh https://github.com/Anime123450/scoop-anime-sh
 scoop install anime-sh
 ```
 
-*or* `choco install anime-sh`
+🍎 **macOS · Linux**
+
+```bash
+brew tap Anime123450/anime-sh && brew install anime-sh
+```
+
+*or* `choco install anime-sh` · `uv tool install "anime-sh[tui]"`
 
 **[→ Read more](https://github.com/Anime123450/anime-sh)**
 
@@ -43,7 +51,10 @@ scoop install anime-sh
 | ⏭️ **Skips intros, auto-advances** | mpv driven over JSON IPC |
 | 🎨 **Nine themes** | previewed live as you arrow through them |
 | 🧱 **Layouts that fit you** | episodes as a grid, a list or compact; two home densities |
-| 📦 **One self-contained binary** | 21 MB, no Python needed — on Scoop and Chocolatey, WinGet pending |
+| 🎒 **Stocks up before you ask** | `prefetch` saves the next episode of everything you're watching |
+| 📊 **Your year, wrapped** | streaks, top shows, busiest day — as a shareable card |
+| 🩺 **Tells you when it's not you** | `doctor --streams` says which sources work from *your* connection |
+| 📦 **One self-contained binary** | 20 MB, no Python needed — Scoop, Chocolatey, Homebrew, PyPI |
 
 ---
 
@@ -52,6 +63,7 @@ scoop install anime-sh
 | | | |
 |---|---|---|
 | **[scoop-anime-sh](https://github.com/Anime123450/scoop-anime-sh)** | Scoop bucket that keeps itself up to date | `JSON` |
+| **[homebrew-anime-sh](https://github.com/Anime123450/homebrew-anime-sh)** | Homebrew tap — CI installs it on macOS and Linux every push | `Ruby` |
 | **[hospital-management-system](https://github.com/Anime123450/hospital-management-system)** | Laravel HMS — patients, staff, appointments | `Blade` |
 | **[sawariya-solution-website](https://github.com/Anime123450/sawariya-solution-website)** | Site for an IT services company | `HTML` |
 | **[bni-services](https://github.com/Anime123450/bni-services)** | Multi-page site for an insurance advisory | `HTML` |
